@@ -16,5 +16,10 @@ a{
 }
 
 .sign-up{
+    display: flex;
+}
 
+.intro-text{
+    display: flex;
+    flex-direction: column;
 }
