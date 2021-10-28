@@ -1,3 +1,7 @@
+body{
+    
+}
+
 ul{
     display: flex;
     list-style: none;
@@ -37,5 +41,21 @@ a{
 }
 
 .quote{
-    
+
+}
+
+.action{
+
+}
+
+.action-container{
+
+}
+
+.action-text{
+
+}
+
+.footer{
+
 }
