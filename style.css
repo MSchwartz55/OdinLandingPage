@@ -45,6 +45,7 @@ button{
     justify-content:center;
     align-items: center;
     padding: 96px;
+    gap: 10px;
     background-color: #1F2937;
 }
 
@@ -55,6 +56,7 @@ button{
     height: 200px;
     width: 400px;
     align-items:flex-start;
+    gap: 8px;
 }
 
 .hero{
