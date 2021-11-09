@@ -1,4 +1,7 @@
 body{
+    height: 100vh;
+    margin: 0;
+    overflow: scroll;
     display: flex;
     flex-direction: column;
 }
@@ -9,6 +12,8 @@ ul{
     margin: 0;
     padding: 0;
     gap: 16px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 a{
@@ -16,9 +21,12 @@ a{
     color: #F9FAF8;
 }
 
-.sign-up img{
-    width: 400px;
-    height: auto;
+button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border-width: 0px;
+    padding: 4px 20px;
 }
 
 .header{
@@ -26,13 +34,15 @@ a{
     justify-content: space-evenly;
     background-color: #1F2937;
     color: #F9FAF8;
+    font-size: 24px;
 }
 
 .sign-up{
     display: flex;
     flex: 1;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
+    padding: 96px;
     background-color: #1F2937;
 }
 
@@ -40,7 +50,26 @@ a{
     display: flex;
     flex-direction: column;
     color: #F9FAF8;
+    height: 200px;
+    width: 400px;
+    align-items:flex-start;
 }
+
+.hero{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.secondary{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up img{
+    width: 400px;
+    height: 150px;
+}
+
 
 .random-info{
     flex: 1;
@@ -48,6 +77,14 @@ a{
     flex-direction: column;
     align-items: center;
     background-color: #F9FAF8;
+    padding: 32px 80px 80px 80px;
+    gap: 32px;
+}
+
+.random-info-header{
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1F2937;
 }
 
 .gallery{
@@ -65,7 +102,7 @@ a{
     width: 100px;
     height: 100px;
     border: #3882F6;
-    border-radius: 10%;
+    border-radius: 10px;
     border-width: 2px;
     background-color: #F9FAF8;
     border-style: solid;
@@ -77,7 +114,20 @@ a{
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: bold;
+    padding: 80px;
+    text-align: right;
 }
+
+#quote-p{
+    font-style: italic;
+    font-weight: 100;
+    font-size: 36px;
+    color: #1F2937;
+}
+
 
 .action{
     flex: 1;
@@ -85,15 +135,36 @@ a{
     justify-content: center;
     align-items: center;
     background-color: #F9FAF8;
+    padding: 64px;
 }
 
 .action-container{
     display: flex;
     gap: 32px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    height: 100px;
+    width: 800px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.action-container button{
+    border-color: #F9FAF8;
+    border-width: 2px;
+    border-radius: 5px;
+    border-style: solid;
 }
 
 .action-text{
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 24px
+}
 
+.random-action-words{
+    font-weight: 400;
+    font-size: 18px;
 }
 
 .footer{
@@ -102,4 +173,5 @@ a{
     align-items: center;
     background-color: #1F2937;
     color: #F9FAF8; 
+    padding: 24px;
 }
